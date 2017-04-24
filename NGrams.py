@@ -99,23 +99,17 @@ class bigramWordsList(object):
             for key1, value1 in value.iteritems():
                 print("{0} : {1}".format(key1, value1))
 
+
+
     def print_probabilities(self):
-        for key in self.bigramWords.items():
-            count = sum(self.bigramWords[key].values())
-            for key1 in self.bigramWords[key].items():
-                prob = self.bigramWords[key][key1] / float(count)
-                print str(key) + " " + str(key1) + " -> " + str(self.bigramWords[key][key1]) + " [" + str(math.log(prob)) + "]"
+        for key, value in self.bigramWords.items():
+            count = 0
+            for key1, value1 in value.iteritems():
+                count += value1
+            for key1, value1 in value.iteritems():
+                prob = value1 / float(count)
+                print str(key) + " " + str(key1) + " -> " + str(value1) + " [" + str(math.log(prob)) + "]"
 
-    def calculateSuccessorCounts(self, pairs):
-        count = 0
-        for val in pairs.itervalues():
-            if isinstance(val, ):
-                print val[1]
-                count += val[1]
-        return count
-
-class bigram(object):
-    pass
 
 sentences = 0
 unigramWordsObj = unigramWordsList()
@@ -151,7 +145,6 @@ with open(args.train) as fileContents:
             bigramWordsObj.addBigram(bigram)
 
     #bigramWordsObj.printBigrams()
-    print ("================================\n")
     #unigramWordsObj.printDistinctWordsConsole()
 
     unigramWordsObj.printProbabilities()
