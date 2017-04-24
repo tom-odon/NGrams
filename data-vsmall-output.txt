@@ -1,0 +1,69 @@
+# of paragraphs: 4
+# of sentences: 9
+# of tokens: 96
+# of types: 63
+
+================================
+. 9
+, 5
+software 5
+a 4
+and 4
+to 4
+We 3
+is 3
+I 2
+Software 2
+developer 2
+engineer 2
+Amanda 1
+Chicago 1
+My 1
+Odon 1
+She 1
+Tom 1
+Warren 1
+am 1
+applications 1
+children 1
+clinical 1
+day 1
+development 1
+each 1
+eat 1
+engineering 1
+exploring 1
+get 1
+girlfriend 1
+going 1
+good 1
+have 1
+hope 1
+how 1
+in 1
+knows 1
+like 1
+listening 1
+live 1
+lives 1
+love 1
+manager 1
+married 1
+music 1
+my 1
+name 1
+of 1
+one 1
+other 1
+our 1
+out 1
+research 1
+rest 1
+spend 1
+student 1
+studies 1
+the 1
+together 1
+trials 1
+with 1
+write 1

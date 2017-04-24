@@ -1,0 +1,18 @@
+Total # of sentences: 3
+Total # of tokens: 17
+# of unique bigrams 16
+=> _N 20, _V 12
+================================
+. 3
+/s 3
+I 3
+\s 3
+Sam 2
+am 2
+and 1
+do 1
+eggs 1
+green 1
+ham 1
+like 1
+not 1

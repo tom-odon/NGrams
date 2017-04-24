@@ -1,0 +1,11 @@
+I 3
+am 2
+Sam 2
+do 1
+not 1
+like 1
+green 1
+eggs 1
+and 1
+ham 1
+. 3

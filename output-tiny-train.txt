@@ -1,0 +1,21 @@
+Sentence 1: I am Sam.
+ - unigram [Prob] 3.375000000000006E-5
+ - bigram  [Prob] 0.1111111111111111
+
+Sentence 2: Sam I am.
+ - unigram [Prob] 3.375000000000006E-5
+ - bigram  [Prob] 0.05555555555555555
+
+Sentence 3: I do not like green eggs and ham.
+ - unigram [Prob] 2.6367187500000006E-12
+ - bigram  [Prob] 0.2222222222222222
+
+==========================
+* Probability:
+- Average unigram probability: 2.250000087890629E-5
+- Average bigram probability:  0.12962962962962962
+
+----------
+* Perplexity:
+- Unigram perplexiy: 10.619875658874598
+- Bigram perplexiy:  1.3903891703159093

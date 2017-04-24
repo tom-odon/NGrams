@@ -1,0 +1,13 @@
+Sentence 1: I do am.
+ - unigram [Prob] 1.687500000000003E-5
+ - bigram  [Prob] 0.1111111111111111
+
+==========================
+* Probability:
+- Average unigram probability: 1.687500000000003E-5
+- Average bigram probability:  0.1111111111111111
+
+----------
+* Perplexity:
+- Unigram perplexiy: 9.006400256804087
+- Bigram perplexiy:  1.5518455739153596
